@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>Portfolio</title>
         <link rel="stylesheet" href="./css/style.css">
     </head>
+
     <body>
+
         <header class="navigation">
             <div class="inline-block logo">
                 <img src="./images/Logo.png" style="height:48px;width:48px;">
@@ -18,87 +21,83 @@
                 </nav>
             </div>
         </header>
-<div></div>
 
-<section class="heroImg">
-<div class="content">
-    <img src="./images/22840359-635E-4DE4-B994-FFD43016284C_1_105_c.jpeg" style="height:40%;width:40%;">
-    <P>
-        Hello, I’m Elias Davis </P>
-<p>
-I am a UX/UI designer with a background in clinical herbalism.
+        <section class="heroImg">
+            <div class="content">
+                <img src="./images/22840359-635E-4DE4-B994-FFD43016284C_1_105_c.jpeg" style="height:40%;width:40%;">
+                <p>
+                    Hello, I’m Elias Davis </p>
+                <p>
+                I am a UX/UI designer with a background in clinical herbalism.
 
-I am passionate about emerging technologies, such as Web 3.0, blockchain, digital currencies, virtual and augmented reality, and how these are motivating rapid innovation in every aspect of our digital and networked world.
+                I am passionate about emerging technologies, such as Web 3.0, blockchain, digital currencies, virtual and augmented reality, and how these are motivating rapid innovation in every aspect of our digital and networked world.
 
-I specialize in emotional design principles, and enjoy solving user problems through cultivating understanding of their actual needs and struggles through research, testing, and prototyping and then allow this information to inform the design.
-    </P>
-    <button>Download Resume</button>
-</div>
+                I specialize in emotional design principles, and enjoy solving user problems through cultivating understanding of their actual needs and struggles through research, testing, and prototyping and then allow this information to inform the design.
+                </p>
+                <button id="downloadResume" class="customBtn">Download Resume</button>
+            </div>
+        </section>
 
-</section>
-<div>
-    <div></div>
-</div>
-<footer>
-<ul>
-    <li class="inline-block">about</li>
-    <li class="inline-block">skills</li>
-    <li class="inline-block">work</li>
-    <li class="inline-block">contact</li>
-</ul>
+        <!--  My UX Skills section coded using CSS flex -->
+        <section class="mySkills">
+        <h1>My UX Skills</h1>
+            <div class="flexContainer">
+                <div class="skillsImages">
+                    <img src="./images/User Research.png" style="height:40%;width:40%;">
+                    <h3><b>User Research</b></h3>
+                    <p>This is where it all begins. Interviews, surverying, competitor analysis, etc.</p>
+                </div>
+                <div class="skillsImages">
+                    <img src="./images/User Interface Design.jpeg" style="height:40%;width:40%;">
+                    <h3><b>User Interface Design</b></h3>
+                    <p><i>placeholder for descriptive text</i></p> 
+                </div>
+                <div class="skillsImages">
+                    <img src="./images/Web Development.jpeg" style="height:40%;width:40%;">
+                    <h3><b>Web Development</b></h3>
+                    <p><i>Placeholder for descriptive text regarding front end web development</i></p>
+                </div>
+            </div>
+        </section>
 
-</footer>
+
+
+        <!--  My Work section coded using CSS flex -->
+        <section class="myWork">
+            <h1 class="center-text">My Work</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img class="projects" src="./images/Sit In Movement.png">
+                </div>
+                <div class="grid-item-2">
+                    <h2 class="center-text">International Civil Rights Center & Museum</h2>
+                    <p>This website has a modern aesthetic, is clean and sleek on the surface, but really suffers with accessibility, usability, and brand inconsistencies which created a lot of confusion for users. In this redesign the focus was to simplify the style, improve navigation, and create more brand consistancy to help build trust with users.</p>
+                    <button class="customBtn">View the project</button>
+                </div>
+                <div class="grid-item">
+                    <img class="projects" src="./images/NPS.png">
+                </div>
+                <div class="grid-item-2">
+                    <h2 class="center-text">National Park Service</h2>
+                    <p>This was a redesign of the National Park Service website. Navigation was confusing, and users were overwhelmed with the assault of information and education. The focus of this was more on organization and navigation optimization.</p>
+                    <button class="customBtn">View the project</button>
+                </div>
+            </div>
+            <button class="customBtn"><b>View all projects</b></button>
+        </section>
+
+        <footer>
+            <ul>
+                <li class="inline-block">about</li>
+                <li class="inline-block">skills</li>
+                <li class="inline-block">work</li>
+                <li class="inline-block">contact</li>
+            </ul>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+
     </body>
 
 </html>
-
-
-
-
- <!--  My UX Skills section coded using CSS flex -->
-<section class="mySkills">
-    <h1>My UX Skills</h1>
-    <div class="flexContainer">
-        <div class="skillsImages">
-            <img src="./images/User Research.png" style="height:40%;width:40%;">
-            <h3><b>User Research</b></h3>
-            <p>This is where it all begins. Interviews, surverying, competitor analysis, etc.</p>
-        </div>
-        <div class="skillsImages">
-            <img src="./images/User Interface Design.jpeg" style="height:40%;width:40%;">
-            <h3><b>User Interface Design</b></h3>
-            <p><i>placeholder for descriptive text</i></p> 
-        </div>
-        <div class="skillsImages">
-            <img src="./images/Web Development.jpeg" style="height:40%;width:40%;">
-            <h3><b>Web Development</b></h3>
-            <p><i>Placeholder for descriptive text regarding front end web development</i></p>
-        </div>
-    </div>
-</section>
-
-
-
- <!--  My Work section coded using CSS flex -->
-<section class="myWork">
-    <h1 class="center-text">My Work</h1>
-    <div class="grid-container">
-        <div class="grid-item">
-            <img class="projects" src="./images/Sit In Movement.png"></div>
-            <div class="grid-item-2">
-                <h2 class="center-text">International Civil Rights Center & Museum</h2>
-            <p>This website has a modern aesthetic, is clean and sleek on the surface, but really suffers with accessibility, usability, and brand inconsistencies which created a lot of confusion for users. In this redesign the focus was to simplify the style, improve navigation, and create more brand consistancy to help build trust with users.</p>
-            <button>View the project</button>
-        </div>
-        <div class="grid-item">
-            <img class="projects" src="./images/NPS.png"></div>
-            <div class="grid-item-2">
-                <h2 class="center-text">National Park Service</h2>
-                <p>This was a redesign of the National Park Service website. Navigation was confusing, and users were overwhelmed with the assault of information and education. The focus of this was more on organization and navigation optimization.</p>
-                <button>View the project</button>
-        </div>
-
-    </div>
-</section>
-<button><b>View all projects</b></button>
-</section>
